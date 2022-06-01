@@ -2,6 +2,7 @@ var localStrategy = require("passport-local").Strategy
 var bcrypt = require("bcryptjs")
 
 //modelo do usuário
+//teste
 Usuario = require('../models/usuario');
 
 module.exports = function(passport){
