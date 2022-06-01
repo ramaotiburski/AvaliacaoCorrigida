@@ -6,6 +6,7 @@ module.exports = {
         req.flash("error_msg","Você precisa realizar login!")
         res.redirect("/")
     },
+    //aa
     admin: function(req,res,next){
         if(req.isAuthenticated() && req.user.eAdmin == 1){
             return next()
